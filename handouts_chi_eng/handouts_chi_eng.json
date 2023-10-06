@@ -496,7 +496,7 @@
             "selector": "#notebook-container > DIV:nth-child(9) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
             "xpath": "//*[@id='notebook-container']/DIV[9]/DIV[1]/DIV[3]/P/text()",
             "english": "Imagine you are in charge of IT at a large multinational e-commerce company. Users are messaging you with IT issues in all their native languages. Your staff is from all over the world and speaks only their native languages. You need a universal translator!",
-            "chinese": "假设您是一家大型跨国电子商务公司的 IT 负责人。用户使用他们的母语向您发送 IT 问题。您的员工来自世界各地，只会说他们的母语。因此您需要一个通用翻译器！"
+            "chinese": "假设您是一家大型跨国电子商务公司的 IT 负责人，您们的用户使用他们自己的母语向您发送 IT 问题，而您的员工来自世界各地，也只会他们自己的母语。因此，您想要一个多语言的通用翻译器！"
         },
         {
             "selector": "#Try-it-yourself\\!",
@@ -520,7 +520,7 @@
             "selector": "#notebook-container > DIV:nth-child(14) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
             "xpath": "//*[@id='notebook-container']/DIV[14]/DIV[1]/DIV[3]/P/text()",
             "english": "Writing can vary based on the intended audience. ChatGPT can produce different tones.",
-            "chinese": "根据目标受众的不同，写作风格也会有所不同。ChatGPT 可以使用不同的语气来生成内容。"
+            "chinese": "根据目标受众的不同，写作风格也会有所不同。ChatGPT 可以使用不同的写作风格或语气来生成内容。"
         },
         {
             "selector": "#Format-Conversion",
@@ -532,7 +532,7 @@
             "selector": "#notebook-container > DIV:nth-child(16) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
             "xpath": "//*[@id='notebook-container']/DIV[16]/DIV[1]/DIV[3]/P/text()",
             "english": "ChatGPT can translate between formats. The prompt should describe the input and output formats.",
-            "chinese": "ChatGPT 可以在不同的特定文本格式之间进行转换，只需要提示词描述清楚输入格式和输出格式。"
+            "chinese": "ChatGPT 可以在不同的特定文本格式之间进行转换，只需要提示词描述清楚输入格式和输出格式即可。"
         },
         {
             "selector": "#Spellcheck\\/Grammar-check\\.",
@@ -544,7 +544,7 @@
             "selector": "#notebook-container > DIV:nth-child(19) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
             "xpath": "//*[@id='notebook-container']/DIV[19]/DIV[1]/DIV[3]/P[1]/text()",
             "english": "Here are some examples of common grammar and spelling problems and the LLM's response.",
-            "chinese": "以下是常见语法和拼写错误的示例及模型的响应。"
+            "chinese": "以下是常见的语法和拼写错误的示例及模型的响应。"
         },
         {
             "selector": "#notebook-container > DIV:nth-child(19) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(3)",
@@ -650,7 +650,7 @@
             "selector": "#notebook-container > DIV:nth-child(13) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
             "xpath": "//*[@id='notebook-container']/DIV[13]/DIV[1]/DIV[3]/P/text()",
             "english": "You can modify the menu or instructions to create your own orderbot!",
-            "chinese": "您可以修改菜单或说明来创建您专属于自己的订单机器人！"
+            "chinese": "您可以修改菜单或说明来创建专属于您自己的订单机器人！"
         }
     ]
 }
