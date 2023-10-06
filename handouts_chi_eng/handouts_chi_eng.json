@@ -348,7 +348,7 @@
             "selector": "#Comment",
             "xpath": "//*[@id='Comment']/text()[1]",
             "english": "Comment",
-            "chinese": "评论"
+            "chinese": "评价"
         },
         {
             "selector": "#notebook-container > DIV:nth-child(12) > DIV:nth-child(1) > DIV:nth-child(3) > UL:nth-child(2) > LI:nth-child(1)",
@@ -366,7 +366,7 @@
             "selector": "#Summarize-multiple-product-reviews",
             "xpath": "//*[@id='Summarize-multiple-product-reviews']/text()[1]",
             "english": "Summarize multiple product reviews",
-            "chinese": "对多个产品评论进行摘要"
+            "chinese": "对多个产品评价进行摘要"
         },
         {
             "selector": "#Try-experimenting-on-your-own\\!",
@@ -386,7 +386,7 @@
             "selector": "#notebook-container > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
             "xpath": "//*[@id='notebook-container']/DIV[1]/DIV[1]/DIV[3]/P/text()",
             "english": "In this lesson, you will infer sentiment and topics from product reviews and news articles.",
-            "chinese": "在本课中，您将从产品评论和新闻文章中推断情绪和主题。"
+            "chinese": "在本课中，您将从产品评价和新闻文章中推断情绪和主题。"
         },
         {
             "selector": "#Setup",
@@ -398,7 +398,7 @@
             "selector": "#Product-review-text",
             "xpath": "//*[@id='Product-review-text']/text()[1]",
             "english": "Product review text",
-            "chinese": "产品评论文本"
+            "chinese": "产品评价文本"
         },
         {
             "selector": "#Sentiment-\\(positive\\/negative\\)",
@@ -422,7 +422,7 @@
             "selector": "#Extract-product-and-company-name-from-customer-reviews",
             "xpath": "//*[@id='Extract-product-and-company-name-from-customer-reviews']/text()[1]",
             "english": "Extract product and company name from customer reviews",
-            "chinese": "从客户评论中提取产品和公司名称"
+            "chinese": "从客户评价中提取产品和公司名称"
         },
         {
             "selector": "#Doing-multiple-tasks-at-once",
@@ -484,7 +484,7 @@
             "selector": "#notebook-container > DIV:nth-child(4) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
             "xpath": "//*[@id='notebook-container']/DIV[4]/DIV[1]/DIV[3]/P/text()",
             "english": "ChatGPT is trained with sources in many languages. This gives the model the ability to do translation. Here are some examples of how to use this capability.",
-            "chinese": "ChatGPT 使用多种语言的数据源进行训练，这使得模型具有史无前例强大的翻译能力。以下是如何使用此功能的一些示例。"
+            "chinese": "ChatGPT 使用了多种语言的数据源进行训练，这使得模型具有史无前例强大的翻译能力。以下是如何使用此功能的一些示例。"
         },
         {
             "selector": "#Universal-Translator",
@@ -496,7 +496,7 @@
             "selector": "#notebook-container > DIV:nth-child(9) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
             "xpath": "//*[@id='notebook-container']/DIV[9]/DIV[1]/DIV[3]/P/text()",
             "english": "Imagine you are in charge of IT at a large multinational e-commerce company. Users are messaging you with IT issues in all their native languages. Your staff is from all over the world and speaks only their native languages. You need a universal translator!",
-            "chinese": "假设您是一家大型跨国电子商务公司的 IT 负责人。用户用他们的母语向您发送 IT 问题。您的员工来自世界各地，只会说他们的母语。您需要一个通用翻译器！"
+            "chinese": "假设您是一家大型跨国电子商务公司的 IT 负责人。用户使用他们的母语向您发送 IT 问题。您的员工来自世界各地，只会说他们的母语。因此您需要一个通用翻译器！"
         },
         {
             "selector": "#Try-it-yourself\\!",
@@ -520,7 +520,7 @@
             "selector": "#notebook-container > DIV:nth-child(14) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
             "xpath": "//*[@id='notebook-container']/DIV[14]/DIV[1]/DIV[3]/P/text()",
             "english": "Writing can vary based on the intended audience. ChatGPT can produce different tones.",
-            "chinese": "根据目标受众的不同，写作风格也会有所不同。ChatGPT 可以产生不同的语气。"
+            "chinese": "根据目标受众的不同，写作风格也会有所不同。ChatGPT 可以使用不同的语气来生成内容。"
         },
         {
             "selector": "#Format-Conversion",
@@ -532,25 +532,25 @@
             "selector": "#notebook-container > DIV:nth-child(16) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
             "xpath": "//*[@id='notebook-container']/DIV[16]/DIV[1]/DIV[3]/P/text()",
             "english": "ChatGPT can translate between formats. The prompt should describe the input and output formats.",
-            "chinese": "ChatGPT 可以在不同格式之间进行转换。提示词应该描述输入和输出格式。"
+            "chinese": "ChatGPT 可以在不同的特定文本格式之间进行转换，只需要提示词描述清楚输入格式和输出格式。"
         },
         {
             "selector": "#Spellcheck\\/Grammar-check\\.",
             "xpath": "//*[@id='Spellcheck/Grammar-check.']/text()[1]",
             "english": "Spellcheck/Grammar check.",
-            "chinese": "拼写检查/语法检查。"
+            "chinese": "拼写检查/语法检查"
         },
         {
             "selector": "#notebook-container > DIV:nth-child(19) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
             "xpath": "//*[@id='notebook-container']/DIV[19]/DIV[1]/DIV[3]/P[1]/text()",
             "english": "Here are some examples of common grammar and spelling problems and the LLM's response.",
-            "chinese": "以下是常见语法和拼写错误的示例及 LLM 的响应。"
+            "chinese": "以下是常见语法和拼写错误的示例及模型的响应。"
         },
         {
             "selector": "#notebook-container > DIV:nth-child(19) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(3)",
             "xpath": "//*[@id='notebook-container']/DIV[19]/DIV[1]/DIV[3]/P[2]/text()",
             "english": "To signal to the LLM that you want it to proofread your text, you instruct the model to 'proofread' or 'proofread and correct'.",
-            "chinese": "为了让 LLM 知道您希望它对文本进行校对，您需要指示模型“proofread”或“proofread and correct”。"
+            "chinese": "为了让模型知道您希望它对文本进行校对，您需要指示模型“校对”或“校正”。"
         },
         {
             "selector": "#Try-it-yourself\\!",
@@ -562,7 +562,7 @@
             "selector": "#notebook-container > DIV:nth-child(24) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
             "xpath": "//*[@id='notebook-container']/DIV[24]/DIV[1]/DIV[3]/P/text()",
             "english": "Try changing the instructions to form your own review.",
-            "chinese": "试着更改提示词，以形成您自己的评论。"
+            "chinese": "试着更改提示词，以生成您自己的评价内容。"
         },
         {
             "selector": "#notebook-container > DIV:nth-child(26) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(1)",
@@ -582,7 +582,7 @@
             "selector": "#notebook-container > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
             "xpath": "//*[@id='notebook-container']/DIV[1]/DIV[1]/DIV[3]/P/text()",
             "english": "In this lesson, you will generate customer service emails that are tailored to each customer's review.",
-            "chinese": "在本课中，您将生成针对每个客户评论的客户服务电子邮件。"
+            "chinese": "在本课中，您将生成针对每个客户评价的客户服务电子邮件。"
         },
         {
             "selector": "#Setup",
@@ -594,13 +594,13 @@
             "selector": "#Customize-the-automated-reply-to-a-customer-email",
             "xpath": "//*[@id='Customize-the-automated-reply-to-a-customer-email']/text()[1]",
             "english": "Customize the automated reply to a customer email",
-            "chinese": "定制自动回复客户电子邮件"
+            "chinese": "个性化定制用于自动回复客户的电子邮件"
         },
         {
             "selector": "#Remind-the-model-to-use-details-from-the-customer\\'s-email",
             "xpath": "//*[@id='concat(\"Remind-the-model-to-use-details-from-the-customer\", \"'\", \"s-email\")']/text()[1]",
             "english": "Remind the model to use details from the customer's email",
-            "chinese": "提醒模型使用客户电子邮件中的详细信息"
+            "chinese": "提醒模型使用客户电子邮件中的详细信息来生成针对性更强的专属电子邮件，而非千篇一律的统一电子邮件"
         },
         {
             "selector": "#Try-experimenting-on-your-own\\!",
@@ -638,7 +638,7 @@
             "selector": "#notebook-container > DIV:nth-child(9) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
             "xpath": "//*[@id='notebook-container']/DIV[9]/DIV[1]/DIV[3]/P/text()",
             "english": "We can automate the collection of user prompts and assistant responses to build a  OrderBot. The OrderBot will take orders at a pizza restaurant.",
-            "chinese": "我们可以自动收集用户提示和助手响应，以构建一个 OrderBot。OrderBot 将在披萨餐厅接受订单。"
+            "chinese": "我们可以自动收集用户提示和助手响应，以构建一个订单机器人。订单机器人将在披萨餐厅接受订单。"
         },
         {
             "selector": "#Try-experimenting-on-your-own\\!",
@@ -650,7 +650,7 @@
             "selector": "#notebook-container > DIV:nth-child(13) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
             "xpath": "//*[@id='notebook-container']/DIV[13]/DIV[1]/DIV[3]/P/text()",
             "english": "You can modify the menu or instructions to create your own orderbot!",
-            "chinese": "您可以修改菜单或说明来创建您自己的订单机器人！"
+            "chinese": "您可以修改菜单或说明来创建您专属于自己的订单机器人！"
         }
     ]
 }
