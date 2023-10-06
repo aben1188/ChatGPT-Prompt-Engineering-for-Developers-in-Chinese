@@ -1,6 +1,5 @@
 {
-    "l2-guidelines":
-    [
+    "l2-guidelines": [
         {
             "selector": "#notebook-container div > h1",
             "english": "Guidelines for Prompting",
@@ -226,6 +225,80 @@
             "xpath": "//*[@id='notebook-container']/DIV[28]/DIV[1]/DIV[3]/UL/LI[2]/text()",
             "english": "GPT-3 isn't really affected whether you insert newline characters or not.  But when working with LLMs in general, you may consider whether newline characters in your prompt may affect the model's performance.",
             "chinese": "实际上，GPT-3 模型并不会因为您是否插入换行符而受到影响。但是，当您使用其他的大语言模型时，您可能需要考虑提示词中的换行符是否会影响模型的性能。"
+        }
+    ],
+    "l3-iterative": [
+        {
+            "selector": "#Iterative-Prompt-Develelopment",
+            "xpath": "//*[@id='Iterative-Prompt-Develelopment']/text()[1]",
+            "english": "Iterative Prompt Develelopment",
+            "chinese": "迭代提示词开发"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
+            "xpath": "//*[@id='notebook-container']/DIV[1]/DIV[1]/DIV[3]/P/text()",
+            "english": "In this lesson, you'll iteratively analyze and refine your prompts to generate marketing copy from a product fact sheet.",
+            "chinese": "在本课中，您将迭代分析和完善您的提示词，以从产品概况表中生成营销副本。"
+        },
+        {
+            "selector": "#Setup",
+            "xpath": "//*[@id='Setup']/text()[1]",
+            "english": "Setup",
+            "chinese": "设置"
+        },
+        {
+            "selector": "#Generate-a-marketing-product-description-from-a-product-fact-sheet",
+            "xpath": "//*[@id='Generate-a-marketing-product-description-from-a-product-fact-sheet']/text()[1]",
+            "english": "Generate a marketing product description from a product fact sheet",
+            "chinese": "从产品概况表中生成营销产品描述"
+        },
+        {
+            "selector": "#Issue-1\\:-The-text-is-too-long",
+            "xpath": "//*[@id='Issue-1:-The-text-is-too-long']/text()[1]",
+            "english": "Issue 1: The text is too long",
+            "chinese": "问题 1：文本太长"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(7) > DIV:nth-child(1) > DIV:nth-child(3) > UL:nth-child(2) > LI:nth-child(1)",
+            "xpath": "//*[@id='notebook-container']/DIV[7]/DIV[1]/DIV[3]/UL/LI/text()",
+            "english": "Limit the number of words/sentences/characters.",
+            "chinese": "限制单词/句子/字符的数量。"
+        },
+        {
+            "selector": "#Issue-2\\.-Text-focuses-on-the-wrong-details",
+            "xpath": "//*[@id='Issue-2.-Text-focuses-on-the-wrong-details']/text()[1]",
+            "english": "Issue 2. Text focuses on the wrong details",
+            "chinese": "问题 2：文本关注了错误的细节"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(10) > DIV:nth-child(1) > DIV:nth-child(3) > UL:nth-child(2) > LI:nth-child(1)",
+            "xpath": "//*[@id='notebook-container']/DIV[10]/DIV[1]/DIV[3]/UL/LI/text()",
+            "english": "Ask it to focus on the aspects that are relevant to the intended audience.",
+            "chinese": "要求模型关注与目标受众相关的方面。"
+        },
+        {
+            "selector": "#Issue-3\\.-Description-needs-a-table-of-dimensions",
+            "xpath": "//*[@id='Issue-3.-Description-needs-a-table-of-dimensions']/text()[1]",
+            "english": "Issue 3. Description needs a table of dimensions",
+            "chinese": "问题 3：描述需要一个尺寸表"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(13) > DIV:nth-child(1) > DIV:nth-child(3) > UL:nth-child(2) > LI:nth-child(1)",
+            "xpath": "//*[@id='notebook-container']/DIV[13]/DIV[1]/DIV[3]/UL/LI/text()",
+            "english": "Ask it to extract information and organize it in a table.",
+            "chinese": "要求模型提取信息并将其组织成表格。"
+        },
+        {
+            "selector": "#Load-Python-libraries-to-view-HTML",
+            "xpath": "//*[@id='Load-Python-libraries-to-view-HTML']/text()[1]",
+            "english": "Load Python libraries to view HTML",
+            "chinese": "加载 Python 库以查看 HTML 文档"
+        },
+        {
+            "selector": "#Try-experimenting-on-your-own\\!",
+            "xpath": "//*[@id='Try-experimenting-on-your-own!']/text()[1]",
+            "english": "Try experimenting on your own!",
+            "chinese": "试着自己做一些实验吧！"
         }
     ]
 }
