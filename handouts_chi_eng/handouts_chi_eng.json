@@ -1,0 +1,231 @@
+{
+    "l2-guidelines":
+    [
+        {
+            "selector": "#notebook-container div > h1",
+            "english": "Guidelines for Prompting",
+            "chinese": "提示词指南"
+        },
+        {
+            "selector": "#notebook-container div > p",
+            "english": "In this lesson, you'll practice two prompting principles and their related tactics in order to write effective prompts for large language models.",
+            "chinese": "在本节课程中，您将练习两个提示词原则及其相关技巧，以便为大型语言模型编写有效的提示词。"
+        },
+        {
+            "selector": "#notebook-container div > h2",
+            "english": "Setup",
+            "chinese": "设置"
+        },
+        {
+            "selector": "#notebook-container div > h4",
+            "english": "Load the API key and relevant Python libaries.",
+            "chinese": "加载 API 密钥和相关的 Python 库。"
+        },
+        {
+            "selector": "#notebook-container div > p",
+            "english": "In this course, we've provided some code that loads the OpenAI API key for you.",
+            "chinese": "在本课程中，我们为您提供了一些加载 OpenAI API 密钥的代码。"
+        },
+        {
+            "selector": "#notebook-container div > h4",
+            "english": "helper function",
+            "chinese": "辅助函数"
+        },
+        {
+            "selector": "#notebook-container div > p",
+            "english": "Throughout this course, we will use OpenAI's ",
+            "chinese": "在整个过程中，我们将使用 OpenAI 的"
+        },
+        {
+            "selector": "#notebook-container div > p",
+            "english": " model and the ",
+            "chinese": "模型和"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(4) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
+            "xpath": "//*[@id='notebook-container']/DIV[4]/DIV[1]/DIV[3]/P[1]/text()",
+            "english": ".",
+            "chinese": "。"
+        },
+        {
+            "selector": "#notebook-container div > p > a",
+            "english": "chat completions endpoint",
+            "chinese": "聊天完成端点"
+        },
+        {
+            "selector": "#notebook-container div > p:nth-child(3)",
+            "english": "This helper function will make it easier to use prompts and look at the generated outputs:",
+            "chinese": "这个辅助函数将让使用提示词更加容易，并可查看模型所生成的输出："
+        },
+        {
+            "selector": "#notebook-container #Prompting-Principles",
+            "english": "Prompting Principles",
+            "chinese": "提示词原则"
+        },
+        {
+            "selector": "#notebook-container div > ul:nth-child(2) > li:nth-child(1) > strong",
+            "english": "Principle 1: Write clear and specific instructions",
+            "chinese": "原则 1：写清晰和具体的指令"
+        },
+        {
+            "selector": "#notebook-container div > ul:nth-child(2) > li:nth-child(2) > strong",
+            "english": "Principle 2: Give the model time to “think”",
+            "chinese": "原则 2：给模型一些“思考”的时间"
+        },
+        {
+            "selector": "#notebook-container #Tactics",
+            "english": "Tactics",
+            "chinese": "技巧"
+        },
+        {
+            "selector": "#Tactic-1\\:-Use-delimiters-to-clearly-indicate-distinct-parts-of-the-input",
+            "english": "Tactic 1: Use delimiters to clearly indicate distinct parts of the input",
+            "chinese": "技巧 1：使用分隔符清楚地区分输入的提示词的不同部分"
+        },
+        {
+            "selector": "#notebook-container div > ul:nth-child(5) > li",
+            "english": "Delimiters can be anything like: ```, \"\"\", < >, ",
+            "chinese": "分隔符可以是任何字符，例如：```, \"\"\", < >, "
+        },
+        {
+            "selector": "#Tactic-2\\:-Ask-for-a-structured-output",
+            "english": "Tactic 2: Ask for a structured output",
+            "chinese": "技巧 2：要求模型进行结构化输出"
+        },
+        {
+            "selector": "#Tactic-3\\:-Ask-the-model-to-check-whether-conditions-are-satisfied",
+            "english": "Tactic 3: Ask the model to check whether conditions are satisfied",
+            "chinese": "技巧 3：要求模型检查是否满足条件"
+        },
+        {
+            "selector": "#Tactic-4\\:-\\\"Few-shot\\\"-prompting",
+            "english": "Tactic 4: \"Few-shot\" prompting",
+            "chinese": "技巧 4：\"少量样本\"提示词"
+        },
+        {
+            "selector": "#Principle-2\\:-Give-the-model-time-to-“think”",
+            "english": "Principle 2: Give the model time to “think”",
+            "chinese": "原则 2：给模型一些“思考”的时间"
+        },
+        {
+            "selector": "#Tactic-1\\:-Specify-the-steps-required-to-complete-a-task",
+            "english": "Tactic 1: Specify the steps required to complete a task",
+            "chinese": "技巧 1：指定完成任务所需的步骤"
+        },
+        {
+            "selector": "#Ask-for-output-in-a-specified-format",
+            "english": "Ask for output in a specified format",
+            "chinese": "要求以指定的格式输出回答"
+        },
+        {
+            "selector": "#Tactic-2\\:-Instruct-the-model-to-work-out-its-own-solution-before-rushing-to-a-conclusion",
+            "english": "Tactic 2: Instruct the model to work out its own solution before rushing to a conclusion",
+            "chinese": "技巧 2：指导模型在匆忙得出结论之前，先制定自己的解决方案"
+        },
+        {
+            "selector": "#Note-that-the-student\\'s-solution-is-actually-not-correct\\.",
+            "english": "Note that the student's solution is actually not correct.",
+            "chinese": "注意：学生的解决方案实际上不是正确的。"
+        },
+        {
+            "selector": "#We-can-fix-this-by-instructing-the-model-to-work-out-its-own-solution-first\\.",
+            "english": "We can fix this by instructing the model to work out its own solution first.",
+            "chinese": "我们可以通过指导模型先制定自己的解决方案来解决这个问题。"
+        },
+        {
+            "selector": "#Model-Limitations\\:-Hallucinations",
+            "english": "Model Limitations: Hallucinations",
+            "chinese": "模型的局限性：幻觉"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(23) > DIV:nth-child(1) > DIV:nth-child(3) > UL:nth-child(2) > LI:nth-child(1)",
+            "xpath": "//*[@id='notebook-container']/DIV[23]/DIV[1]/DIV[3]/UL/LI/text()",
+            "english": "Boie is a real company, the product name is not real.",
+            "chinese": "Boie是一家现实中的公司，但这里提到的产品是虚构的。"
+        },
+        {
+            "selector": "#Try-experimenting-on-your-own\\!",
+            "xpath": "//*[@id='Try-experimenting-on-your-own!']/text()[1]",
+            "english": "Try experimenting on your own!",
+            "chinese": "试着自己做一些实验吧！"
+        },
+        {
+            "selector": "#Notes-on-using-the-OpenAI-API-outside-of-this-classroom",
+            "xpath": "//*[@id='Notes-on-using-the-OpenAI-API-outside-of-this-classroom']/text()[1]",
+            "english": "Notes on using the OpenAI API outside of this classroom",
+            "chinese": "在课堂之外使用 OpenAI API 的注意事项"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(27) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
+            "xpath": "//*[@id='notebook-container']/DIV[27]/DIV[1]/DIV[3]/P[1]/text()",
+            "english": "To install the OpenAI Python library:",
+            "chinese": "安装 OpenAI Python 库："
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(27) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(4)",
+            "xpath": "//*[@id='notebook-container']/DIV[27]/DIV[1]/DIV[3]/P[2]/text()",
+            "english": "The library needs to be configured with your account's secret key, which is available on the",
+            "chinese": "该库需要使用您帐户的密钥进行配置，该密钥可在"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(27) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(4)",
+            "xpath": "//*[@id='notebook-container']/DIV[27]/DIV[1]/DIV[3]/P[2]/text()",
+            "english": ".",
+            "chinese": "。"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(27) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(4) > A:nth-child(1)",
+            "xpath": "//*[@id='notebook-container']/DIV[27]/DIV[1]/DIV[3]/P[2]/A/text()",
+            "english": "website",
+            "chinese": "OpenAI 网站中找到"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(27) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(5)",
+            "xpath": "//*[@id='notebook-container']/DIV[27]/DIV[1]/DIV[3]/P[3]/text()",
+            "english": "You can either set it as the",
+            "chinese": "您可以将密钥设置为"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(27) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(5)",
+            "xpath": "//*[@id='notebook-container']/DIV[27]/DIV[1]/DIV[3]/P[3]/text()",
+            "english": "environment variable before using the library:",
+            "chinese": "环境变量，然后再使用该库："
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(27) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(7)",
+            "xpath": "//*[@id='notebook-container']/DIV[27]/DIV[1]/DIV[3]/P[4]/text()",
+            "english": "Or, set",
+            "chinese": "或者，将"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(27) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(7)",
+            "xpath": "//*[@id='notebook-container']/DIV[27]/DIV[1]/DIV[3]/P[4]/text()",
+            "english": "to its value:",
+            "chinese": "变量设置为密钥的值："
+        },
+        {
+            "selector": "#A-note-about-the-backslash",
+            "xpath": "//*[@id='A-note-about-the-backslash']/text()[1]",
+            "english": "A note about the backslash",
+            "chinese": "关于反斜杠“\\”的说明"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(28) > DIV:nth-child(1) > DIV:nth-child(3) > UL:nth-child(2) > LI:nth-child(1)",
+            "xpath": "//*[@id='notebook-container']/DIV[28]/DIV[1]/DIV[3]/UL/LI[1]/text()",
+            "english": "In the course, we are using a backslash",
+            "chinese": "在本课程中，我们使用反斜杠"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(28) > DIV:nth-child(1) > DIV:nth-child(3) > UL:nth-child(2) > LI:nth-child(1)",
+            "xpath": "//*[@id='notebook-container']/DIV[28]/DIV[1]/DIV[3]/UL/LI[1]/text()",
+            "english": "to make the text fit on the screen without inserting newline '\\n' characters.",
+            "chinese": "来表示换行，以便于长文本提示词在屏幕上能够完整显示，而无需插入换行符“\\n”。"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(28) > DIV:nth-child(1) > DIV:nth-child(3) > UL:nth-child(2) > LI:nth-child(2)",
+            "xpath": "//*[@id='notebook-container']/DIV[28]/DIV[1]/DIV[3]/UL/LI[2]/text()",
+            "english": "GPT-3 isn't really affected whether you insert newline characters or not.  But when working with LLMs in general, you may consider whether newline characters in your prompt may affect the model's performance.",
+            "chinese": "实际上，GPT-3 模型并不会因为您是否插入换行符而受到影响。但是，当您使用其他的大语言模型时，您可能需要考虑提示词中的换行符是否会影响模型的性能。"
+        }
+    ]
+}
