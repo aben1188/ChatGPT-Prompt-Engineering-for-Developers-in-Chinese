@@ -300,5 +300,357 @@
             "english": "Try experimenting on your own!",
             "chinese": "试着自己做一些实验吧！"
         }
+    ],
+    "l4-summarizing": [
+        {
+            "selector": "#Summarizing",
+            "xpath": "//*[@id='Summarizing']/text()[1]",
+            "english": "Summarizing",
+            "chinese": "摘要"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
+            "xpath": "//*[@id='notebook-container']/DIV[1]/DIV[1]/DIV[3]/P/text()",
+            "english": "In this lesson, you will summarize text with a focus on specific topics.",
+            "chinese": "在本课中，您将根据特定主题对文本进行摘要。"
+        },
+        {
+            "selector": "#Setup",
+            "xpath": "//*[@id='Setup']/text()[1]",
+            "english": "Setup",
+            "chinese": "设置"
+        },
+        {
+            "selector": "#Text-to-summarize",
+            "xpath": "//*[@id='Text-to-summarize']/text()[1]",
+            "english": "Text to summarize",
+            "chinese": "想要进行摘要的文本"
+        },
+        {
+            "selector": "#Summarize-with-a-word\\/sentence\\/character-limit",
+            "xpath": "//*[@id='Summarize-with-a-word/sentence/character-limit']/text()[1]",
+            "english": "Summarize with a word/sentence/character limit",
+            "chinese": "使用单词/句子/字符限制进行摘要"
+        },
+        {
+            "selector": "#Summarize-with-a-focus-on-shipping-and-delivery",
+            "xpath": "//*[@id='Summarize-with-a-focus-on-shipping-and-delivery']/text()[1]",
+            "english": "Summarize with a focus on shipping and delivery",
+            "chinese": "以运输和交付为重点进行摘要"
+        },
+        {
+            "selector": "#Summarize-with-a-focus-on-price-and-value",
+            "xpath": "//*[@id='Summarize-with-a-focus-on-price-and-value']/text()[1]",
+            "english": "Summarize with a focus on price and value",
+            "chinese": "以价格和价值为重点进行摘要"
+        },
+        {
+            "selector": "#Comment",
+            "xpath": "//*[@id='Comment']/text()[1]",
+            "english": "Comment",
+            "chinese": "评论"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(12) > DIV:nth-child(1) > DIV:nth-child(3) > UL:nth-child(2) > LI:nth-child(1)",
+            "xpath": "//*[@id='notebook-container']/DIV[12]/DIV[1]/DIV[3]/UL/LI/text()",
+            "english": "Summaries include topics that are not related to the topic of focus.",
+            "chinese": "摘要包含与重点主题无关的主题。"
+        },
+        {
+            "selector": "#Try-\\\"extract\\\"-instead-of-\\\"summarize\\\"",
+            "xpath": "//*[@id='Try-\"extract\"-instead-of-\"summarize\"']/text()[1]",
+            "english": "Try \"extract\" instead of \"summarize\"",
+            "chinese": "尝试使用“提取”而不是“摘要”"
+        },
+        {
+            "selector": "#Summarize-multiple-product-reviews",
+            "xpath": "//*[@id='Summarize-multiple-product-reviews']/text()[1]",
+            "english": "Summarize multiple product reviews",
+            "chinese": "对多个产品评论进行摘要"
+        },
+        {
+            "selector": "#Try-experimenting-on-your-own\\!",
+            "xpath": "//*[@id='Try-experimenting-on-your-own!']/text()[1]",
+            "english": "Try experimenting on your own!",
+            "chinese": "试着自己做一些实验吧！"
+        }
+    ],
+    "l5-inferring": [
+        {
+            "selector": "#Inferring",
+            "xpath": "//*[@id='Inferring']/text()[1]",
+            "english": "Inferring",
+            "chinese": "推断"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
+            "xpath": "//*[@id='notebook-container']/DIV[1]/DIV[1]/DIV[3]/P/text()",
+            "english": "In this lesson, you will infer sentiment and topics from product reviews and news articles.",
+            "chinese": "在本课中，您将从产品评论和新闻文章中推断情绪和主题。"
+        },
+        {
+            "selector": "#Setup",
+            "xpath": "//*[@id='Setup']/text()[1]",
+            "english": "Setup",
+            "chinese": "设置"
+        },
+        {
+            "selector": "#Product-review-text",
+            "xpath": "//*[@id='Product-review-text']/text()[1]",
+            "english": "Product review text",
+            "chinese": "产品评论文本"
+        },
+        {
+            "selector": "#Sentiment-\\(positive\\/negative\\)",
+            "xpath": "//*[@id='Sentiment-(positive/negative)']/text()[1]",
+            "english": "Sentiment (positive/negative)",
+            "chinese": "情绪（积极/消极）"
+        },
+        {
+            "selector": "#Identify-types-of-emotions",
+            "xpath": "//*[@id='Identify-types-of-emotions']/text()[1]",
+            "english": "Identify types of emotions",
+            "chinese": "识别情绪类型"
+        },
+        {
+            "selector": "#Identify-anger",
+            "xpath": "//*[@id='Identify-anger']/text()[1]",
+            "english": "Identify anger",
+            "chinese": "识别愤怒"
+        },
+        {
+            "selector": "#Extract-product-and-company-name-from-customer-reviews",
+            "xpath": "//*[@id='Extract-product-and-company-name-from-customer-reviews']/text()[1]",
+            "english": "Extract product and company name from customer reviews",
+            "chinese": "从客户评论中提取产品和公司名称"
+        },
+        {
+            "selector": "#Doing-multiple-tasks-at-once",
+            "xpath": "//*[@id='Doing-multiple-tasks-at-once']/text()[1]",
+            "english": "Doing multiple tasks at once",
+            "chinese": "同时执行多个任务"
+        },
+        {
+            "selector": "#Inferring-topics",
+            "xpath": "//*[@id='Inferring-topics']/text()[1]",
+            "english": "Inferring topics",
+            "chinese": "推断主题"
+        },
+        {
+            "selector": "#Infer-5-topics",
+            "xpath": "//*[@id='Infer-5-topics']/text()[1]",
+            "english": "Infer 5 topics",
+            "chinese": "推断 5 个主题"
+        },
+        {
+            "selector": "#Make-a-news-alert-for-certain-topics",
+            "xpath": "//*[@id='Make-a-news-alert-for-certain-topics']/text()[1]",
+            "english": "Make a news alert for certain topics",
+            "chinese": "为某些主题创建新闻警报"
+        },
+        {
+            "selector": "#Try-experimenting-on-your-own\\!",
+            "xpath": "//*[@id='Try-experimenting-on-your-own!']/text()[1]",
+            "english": "Try experimenting on your own!",
+            "chinese": "试着自己做一些实验吧！"
+        }
+    ],
+    "l6-transforming": [
+        {
+            "selector": "#Transforming",
+            "xpath": "//*[@id='Transforming']/text()[1]",
+            "english": "Transforming",
+            "chinese": "转换"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
+            "xpath": "//*[@id='notebook-container']/DIV[1]/DIV[1]/DIV[3]/P/text()",
+            "english": "In this notebook, we will explore how to use Large Language Models for text transformation tasks such as language translation, spelling and grammar checking, tone adjustment, and format conversion.",
+            "chinese": "在本课中，我们将探讨如何使用大型语言模型来进行文本转换任务，例如语言翻译、拼写和语法检查、语气调整和格式转换。"
+        },
+        {
+            "selector": "#Setup",
+            "xpath": "//*[@id='Setup']/text()[1]",
+            "english": "Setup",
+            "chinese": "设置"
+        },
+        {
+            "selector": "#Translation",
+            "xpath": "//*[@id='Translation']/text()[1]",
+            "english": "Translation",
+            "chinese": "翻译"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(4) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
+            "xpath": "//*[@id='notebook-container']/DIV[4]/DIV[1]/DIV[3]/P/text()",
+            "english": "ChatGPT is trained with sources in many languages. This gives the model the ability to do translation. Here are some examples of how to use this capability.",
+            "chinese": "ChatGPT 使用多种语言的数据源进行训练，这使得模型具有史无前例强大的翻译能力。以下是如何使用此功能的一些示例。"
+        },
+        {
+            "selector": "#Universal-Translator",
+            "xpath": "//*[@id='Universal-Translator']/text()[1]",
+            "english": "Universal Translator",
+            "chinese": "通用翻译器"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(9) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
+            "xpath": "//*[@id='notebook-container']/DIV[9]/DIV[1]/DIV[3]/P/text()",
+            "english": "Imagine you are in charge of IT at a large multinational e-commerce company. Users are messaging you with IT issues in all their native languages. Your staff is from all over the world and speaks only their native languages. You need a universal translator!",
+            "chinese": "假设您是一家大型跨国电子商务公司的 IT 负责人。用户用他们的母语向您发送 IT 问题。您的员工来自世界各地，只会说他们的母语。您需要一个通用翻译器！"
+        },
+        {
+            "selector": "#Try-it-yourself\\!",
+            "xpath": "//*[@id='Try-it-yourself!']/text()[1]",
+            "english": "Try it yourself!",
+            "chinese": "请您自己尝试一下吧！"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(12) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
+            "xpath": "//*[@id='notebook-container']/DIV[12]/DIV[1]/DIV[3]/P/text()",
+            "english": "Try some translations on your own!",
+            "chinese": "请您自己尝试进行翻译吧！"
+        },
+        {
+            "selector": "#Tone-Transformation",
+            "xpath": "//*[@id='Tone-Transformation']/text()[1]",
+            "english": "Tone Transformation",
+            "chinese": "语气转换"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(14) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
+            "xpath": "//*[@id='notebook-container']/DIV[14]/DIV[1]/DIV[3]/P/text()",
+            "english": "Writing can vary based on the intended audience. ChatGPT can produce different tones.",
+            "chinese": "根据目标受众的不同，写作风格也会有所不同。ChatGPT 可以产生不同的语气。"
+        },
+        {
+            "selector": "#Format-Conversion",
+            "xpath": "//*[@id='Format-Conversion']/text()[1]",
+            "english": "Format Conversion",
+            "chinese": "格式转换"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(16) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
+            "xpath": "//*[@id='notebook-container']/DIV[16]/DIV[1]/DIV[3]/P/text()",
+            "english": "ChatGPT can translate between formats. The prompt should describe the input and output formats.",
+            "chinese": "ChatGPT 可以在不同格式之间进行转换。提示词应该描述输入和输出格式。"
+        },
+        {
+            "selector": "#Spellcheck\\/Grammar-check\\.",
+            "xpath": "//*[@id='Spellcheck/Grammar-check.']/text()[1]",
+            "english": "Spellcheck/Grammar check.",
+            "chinese": "拼写检查/语法检查。"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(19) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
+            "xpath": "//*[@id='notebook-container']/DIV[19]/DIV[1]/DIV[3]/P[1]/text()",
+            "english": "Here are some examples of common grammar and spelling problems and the LLM's response.",
+            "chinese": "以下是常见语法和拼写错误的示例及 LLM 的响应。"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(19) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(3)",
+            "xpath": "//*[@id='notebook-container']/DIV[19]/DIV[1]/DIV[3]/P[2]/text()",
+            "english": "To signal to the LLM that you want it to proofread your text, you instruct the model to 'proofread' or 'proofread and correct'.",
+            "chinese": "为了让 LLM 知道您希望它对文本进行校对，您需要指示模型“proofread”或“proofread and correct”。"
+        },
+        {
+            "selector": "#Try-it-yourself\\!",
+            "xpath": "//*[@id='Try-it-yourself!']/text()[1]",
+            "english": "Try it yourself!",
+            "chinese": "请您自己尝试一下吧！"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(24) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
+            "xpath": "//*[@id='notebook-container']/DIV[24]/DIV[1]/DIV[3]/P/text()",
+            "english": "Try changing the instructions to form your own review.",
+            "chinese": "试着更改提示词，以形成您自己的评论。"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(26) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(1)",
+            "xpath": "//*[@id='notebook-container']/DIV[26]/DIV[1]/DIV[3]/P[1]/text()",
+            "english": "Thanks to the following sites:",
+            "chinese": "感谢以下网站："
+        }
+    ],
+    "l7-expanding": [
+        {
+            "selector": "#Expanding",
+            "xpath": "//*[@id='Expanding']/text()[1]",
+            "english": "Expanding",
+            "chinese": "扩展"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
+            "xpath": "//*[@id='notebook-container']/DIV[1]/DIV[1]/DIV[3]/P/text()",
+            "english": "In this lesson, you will generate customer service emails that are tailored to each customer's review.",
+            "chinese": "在本课中，您将生成针对每个客户评论的客户服务电子邮件。"
+        },
+        {
+            "selector": "#Setup",
+            "xpath": "//*[@id='Setup']/text()[1]",
+            "english": "Setup",
+            "chinese": "设置"
+        },
+        {
+            "selector": "#Customize-the-automated-reply-to-a-customer-email",
+            "xpath": "//*[@id='Customize-the-automated-reply-to-a-customer-email']/text()[1]",
+            "english": "Customize the automated reply to a customer email",
+            "chinese": "定制自动回复客户电子邮件"
+        },
+        {
+            "selector": "#Remind-the-model-to-use-details-from-the-customer\\'s-email",
+            "xpath": "//*[@id='concat(\"Remind-the-model-to-use-details-from-the-customer\", \"'\", \"s-email\")']/text()[1]",
+            "english": "Remind the model to use details from the customer's email",
+            "chinese": "提醒模型使用客户电子邮件中的详细信息"
+        },
+        {
+            "selector": "#Try-experimenting-on-your-own\\!",
+            "xpath": "//*[@id='Try-experimenting-on-your-own!']/text()[1]",
+            "english": "Try experimenting on your own!",
+            "chinese": "试着自己做一些实验吧！"
+        }
+    ],
+    "l8-chatbot": [
+        {
+            "selector": "#The-Chat-Format",
+            "xpath": "//*[@id='The-Chat-Format']/text()[1]",
+            "english": "The Chat Format",
+            "chinese": "聊天格式"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
+            "xpath": "//*[@id='notebook-container']/DIV[1]/DIV[1]/DIV[3]/P/text()",
+            "english": "In this notebook, you will explore how you can utilize the chat format to have extended conversations with chatbots personalized or specialized for specific tasks or behaviors.",
+            "chinese": "在本课中，您将探索如何利用聊天格式与针对特定任务或行为进行个性化或专门化的聊天机器人进行长时间的对话。"
+        },
+        {
+            "selector": "#Setup",
+            "xpath": "//*[@id='Setup']/text()[1]",
+            "english": "Setup",
+            "chinese": "设置"
+        },
+        {
+            "selector": "#OrderBot",
+            "xpath": "//*[@id='OrderBot']/text()[1]",
+            "english": "OrderBot",
+            "chinese": "订单机器人"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(9) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
+            "xpath": "//*[@id='notebook-container']/DIV[9]/DIV[1]/DIV[3]/P/text()",
+            "english": "We can automate the collection of user prompts and assistant responses to build a  OrderBot. The OrderBot will take orders at a pizza restaurant.",
+            "chinese": "我们可以自动收集用户提示和助手响应，以构建一个 OrderBot。OrderBot 将在披萨餐厅接受订单。"
+        },
+        {
+            "selector": "#Try-experimenting-on-your-own\\!",
+            "xpath": "//*[@id='Try-experimenting-on-your-own!']/text()[1]",
+            "english": "Try experimenting on your own!",
+            "chinese": "试着自己做一些实验吧！"
+        },
+        {
+            "selector": "#notebook-container > DIV:nth-child(13) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
+            "xpath": "//*[@id='notebook-container']/DIV[13]/DIV[1]/DIV[3]/P/text()",
+            "english": "You can modify the menu or instructions to create your own orderbot!",
+            "chinese": "您可以修改菜单或说明来创建您自己的订单机器人！"
+        }
     ]
 }
