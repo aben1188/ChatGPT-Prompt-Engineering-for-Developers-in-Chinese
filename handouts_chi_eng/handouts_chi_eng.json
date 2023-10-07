@@ -8,7 +8,7 @@
         {
             "selector": "#notebook-container div > p",
             "english": "In this lesson, you'll practice two prompting principles and their related tactics in order to write effective prompts for large language models.",
-            "chinese": "在本节课程中，您将练习两个提示词原则及其相关技巧，以便为大型语言模型编写有效的提示词。"
+            "chinese": "在本课中，您将练习两个提示词原则及其相关技巧，以便为大型语言模型编写有效的提示词。"
         },
         {
             "selector": "#notebook-container div > h2",
