@@ -544,7 +544,7 @@
             "selector": "#notebook-container > DIV:nth-child(19) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
             "xpath": "//*[@id='notebook-container']/DIV[19]/DIV[1]/DIV[3]/P[1]/text()",
             "english": "Here are some examples of common grammar and spelling problems and the LLM's response.",
-            "chinese": "以下是常见的语法和拼写错误的示例及模型的响应。"
+            "chinese": "以下是常见的语法和拼写错误的示例及模型的回应。"
         },
         {
             "selector": "#notebook-container > DIV:nth-child(19) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(3)",
@@ -632,13 +632,13 @@
             "selector": "#OrderBot",
             "xpath": "//*[@id='OrderBot']/text()[1]",
             "english": "OrderBot",
-            "chinese": "订单机器人"
+            "chinese": "订餐机器人"
         },
         {
             "selector": "#notebook-container > DIV:nth-child(9) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
             "xpath": "//*[@id='notebook-container']/DIV[9]/DIV[1]/DIV[3]/P/text()",
             "english": "We can automate the collection of user prompts and assistant responses to build a  OrderBot. The OrderBot will take orders at a pizza restaurant.",
-            "chinese": "我们可以自动收集用户提示和助手响应，以构建一个订单机器人。订单机器人将在披萨餐厅接受订单。"
+            "chinese": "我们可以自动收集用户使用自然语言提出的订餐要求和模型的回应，这样就创建了一个订餐机器人。订餐机器人将在披萨餐厅接受订单。"
         },
         {
             "selector": "#Try-experimenting-on-your-own\\!",
@@ -650,7 +650,7 @@
             "selector": "#notebook-container > DIV:nth-child(13) > DIV:nth-child(1) > DIV:nth-child(3) > P:nth-child(2)",
             "xpath": "//*[@id='notebook-container']/DIV[13]/DIV[1]/DIV[3]/P/text()",
             "english": "You can modify the menu or instructions to create your own orderbot!",
-            "chinese": "您可以修改菜单或说明来创建专属于您自己的订单机器人！"
+            "chinese": "您可以修改菜单或说明来创建您自己的订餐机器人！"
         }
     ]
 }
