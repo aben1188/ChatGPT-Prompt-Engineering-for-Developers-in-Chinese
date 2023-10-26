@@ -124,7 +124,7 @@
         {
             "selector": "#Note-that-the-student\\'s-solution-is-actually-not-correct\\.",
             "english": "Note that the student's solution is actually not correct.",
-            "chinese": "注意：学生的解决方案实际上不是正确的。"
+            "chinese": "注意：学生的解决方案实际上是不正确的。"
         },
         {
             "selector": "#We-can-fix-this-by-instructing-the-model-to-work-out-its-own-solution-first\\.",
